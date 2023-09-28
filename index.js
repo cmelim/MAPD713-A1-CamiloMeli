@@ -1,5 +1,5 @@
 let SERVER_NAME = 'product-api'
-let PORT = 3000;
+let PORT = 5000;
 let HOST = '127.0.0.1';
 
 let errors = require('restify-errors');
