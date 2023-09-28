@@ -49,7 +49,8 @@ server.get('/products/:id', function (req, res, next) {
       res.send(product)
     } else {
       // Send 404 header if the user doesn't exist
-      res.send(404)
+      //res.send(404)
+      res.json({MessageEvent: 'no found product' })
     }
   })
 })
